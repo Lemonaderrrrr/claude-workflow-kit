@@ -1,4 +1,4 @@
-# Claude Workflow Kit — `flow`
+# flow-kit — `flow`
 
 A small, reusable **workflow system** for [Claude Code](https://code.claude.com).
 Six work workflows plus a closed-loop delivery engine, each crossed with two
@@ -34,8 +34,8 @@ switches it — e.g. *"learn transformers, engineer mode"*.
 In Claude Code:
 
 ```
-/plugin marketplace add Lemonaderrrrr/claude-workflow-kit
-/plugin install flow@claude-workflow-kit
+/plugin marketplace add Lemonaderrrrr/flow-kit
+/plugin install flow@flow-kit
 ```
 
 Then invoke any workflow, e.g. `/flow:learn transformers`, or just say
@@ -48,7 +48,7 @@ The plugin/marketplace mechanism is Claude-Code-specific, but the skills use the
 same `SKILL.md` format Codex understands. One-click install into Codex:
 
 ```
-curl -fsSL https://raw.githubusercontent.com/Lemonaderrrrr/claude-workflow-kit/main/codex/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Lemonaderrrrr/flow-kit/main/codex/install.sh | bash
 ```
 
 This drops the 7 skills into `~/.agents/skills/flow-*/` and adds the global
