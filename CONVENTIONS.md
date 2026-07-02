@@ -1,6 +1,6 @@
 # Global Conventions
 
-The plugin ships four **skills** (`/flow:learn`, `/flow:write`, `/flow:research`, `/flow:build`).
+The plugin ships seven **skills** (`/flow:learn`, `/flow:write`, `/flow:research`, `/flow:build`, `/flow:plan`, `/flow:analyze`, `/flow:loop`).
 But the system works best with three **global conventions** that a plugin cannot inject automatically.
 **Paste the block below into your repo's `CLAUDE.md`** (or `~/.claude/CLAUDE.md` for all projects).
 
@@ -12,7 +12,7 @@ But the system works best with three **global conventions** that a plugin cannot
 Each turn, route before acting — don't blindly run an SOP or default to a mode:
 
 0. **Scan whether to invoke a skill** (`/flow:learn` etc., or none). Do this every turn.
-1. Which workflow? (learn / write / research / build / none)
+1. Which workflow? (learn / write / research / build / plan / analyze / loop / none)
 2. Which thinking mode? (🧠 Philosopher = absorb-oriented / ⚙️ Engineer = ship-oriented)
 3. **Confirm in one line**: "This looks like [X], I'd use [Y] mode — ok?"
 4. Execute only after confirmation. One word from me can override.
