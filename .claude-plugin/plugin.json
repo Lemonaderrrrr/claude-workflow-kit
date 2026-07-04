@@ -1,7 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "flow",
-  "displayName": "Flow — Workflows & Thinking Modes",
   "version": "1.4.0",
   "description": "Six work workflows (learn / write / research / build / plan / analyze) plus a closed-loop delivery engine (loop), crossed with two thinking modes (Philosopher = absorb, Engineer = ship). Works in Claude Code CLI and on the web.",
   "author": {
