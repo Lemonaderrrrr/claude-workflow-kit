@@ -1,9 +1,16 @@
 # flow-kit — `flow`
 
-A small, reusable **workflow system** for [Claude Code](https://code.claude.com).
-Six work workflows plus a closed-loop delivery engine, each crossed with two
-thinking modes — so you *absorb* knowledge and *ship* output deliberately instead
-of ad hoc. It's all just files in a repo, so it works in the **CLI** and **on the web**.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-plugin-8A2BE2)](https://code.claude.com)
+[![Codex CLI](https://img.shields.io/badge/OpenAI%20Codex-compatible-111111)](./codex)
+[![Stars](https://img.shields.io/github/stars/Lemonaderrrrr/flow-kit?style=social)](https://github.com/Lemonaderrrrr/flow-kit/stargazers)
+
+**Stop Claude from winging it.** `flow-kit` routes every task through two thinking
+modes — 🧠 *Philosopher* (absorb) and ⚙️ *Engineer* (ship) — *before* work starts,
+then runs it through one of **7 purpose-built workflow skills**.
+
+Works in **Claude Code** and **OpenAI Codex CLI** — it's all just files in a repo,
+so it also works on the web.
 
 ## The matrix
 
